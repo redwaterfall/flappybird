@@ -1,0 +1,27 @@
+.pipeContainerTop{
+    width:  12vh;
+    height: 50vh;
+   /*top: -100vh;*/
+    position: absolute;
+    background: transparent;
+    /*border: solid red;*/
+}
+.pipeContainerBottom{
+    width:  12vh;
+    height: 60vh;
+    /*top: 50vh;*/
+    position: absolute;
+    background: transparent;
+    /*border: solid pink;*/
+}
+.pipePicBottom{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+.pipePicTop{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    transform: rotateX(180deg);
+}

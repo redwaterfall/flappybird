@@ -1,0 +1,31 @@
+.gameContainer{
+    width:100vw;
+    height: 100vh;
+    border: solid;
+    /*background-image: url('../images/backgroundfloppybird.png');*/
+    position: fixed;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+
+.gameovercontainer{
+    width: 35vw;
+    height: 20vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border: 0.1px solid rgb(111, 168, 223);
+    border-radius: 20px;
+    left: 40vw;
+    top: 30vh;
+    align-items: center;
+    justify-content: center;
+}
+.gameoverelement{
+    width: 70%;
+    height: 20%;
+    font-size: 3vw;
+}
